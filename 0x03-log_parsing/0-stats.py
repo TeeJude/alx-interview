@@ -19,9 +19,9 @@ def print_msg(dict_sc, total_file_size):
             print("{}: {}".format(key, val))
 
 
-counter = 0
-code = 0
 total_file_size = 0
+code = 0
+counter = 0
 dict_sc = {"200": 0,
            "301": 0,
            "400": 0,
