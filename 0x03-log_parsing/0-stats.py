@@ -1,14 +1,17 @@
 #!/usr/bin/python3
 """
-A script: Reads standard input line by line and computes metrics
+Log parsing
 """
 
 
 def parseLogs():
     """
-    Reads logs from standard input and generates reports
-    Reports:
-        * Prints log size after reading every 10 lines & at KeyboardInterrupt
+    Method to print
+    Args:
+        dict_sc: dict of status codes
+        total_file_size: total of the file
+    Returns:
+        Nothing
     Raises:
         KeyboardInterrupt (Exception): handles this exception and raises it
     """
