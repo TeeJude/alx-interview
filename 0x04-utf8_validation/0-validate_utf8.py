@@ -13,8 +13,8 @@ def validUTF8(data):
         (False): if data is a not valid UTF-8 encoding
     """
     byte_count = 0
-    Dat1 = 1 << 7
-    Dat2 = 1 << 6
+    Dat1 = 1 << 6
+    Dat2 = 1 << 7
     for data_point in data:
         Dat3 = 1 << 7
         if byte_count == 0:
@@ -26,7 +26,7 @@ def validUTF8(data):
             if byte_count == 1 or byte_count > 4:
                 return False
         else:
-            if not (data_point & Dat1 and not (data_point & Dat2)):
+            if not (data_point & Dat2 and not (data_point & Dat1)):
                 return False
         byte_count -= 1
     return not byte_count
