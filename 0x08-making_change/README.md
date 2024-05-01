@@ -2,10 +2,6 @@
 
 Algorithm
 Python
- By: Carrie Ybay, Software Engineer at Holberton School
- Weight: 1
- Ongoing second chance project - started Feb 26, 2024 6:00 AM, must end by Mar 4, 2024 6:00 AM
- An auto review will be launched at the deadline
 
 In a nutshell…
 Auto QA review: 0.0/16 mandatory
@@ -109,5 +105,3 @@ Repo:
 GitHub repository: alx-interview
 Directory: 0x08-making_change
 File: 0-making_change.py
-   
-Copyright © 2024 ALX, All rights reserved.
