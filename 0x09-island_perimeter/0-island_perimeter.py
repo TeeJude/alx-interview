@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Module that defines an island_perimeter function that finds the
+Module that defines island_perimeter function that finds the
 perimeter of an island described in a grid
 """
 
