@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Module to define isWineer function (Prime Game)
+Module to define isWinner function (Prime Game)
 """
 
 def primes(n):
